@@ -33,4 +33,4 @@ with tf.Session() as sess:
     #output = sess.run(feed_dict = {x:[example]})
     variables = tf.train.list_variables('C:/Users/Johannes/Documents/PhD/SIDDATA/AP5/Ontology mapping/BERT/multi_cased_L-12_H-768_A-12/bert_model.ckpt')
     
-    print(variables) 
+    print(variables)  
